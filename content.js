@@ -10,12 +10,6 @@ function disableAutoplay(){
 
   var autoplayToggle = autoplaySection.nextElementSibling;
 
-  if (!autoplayToggle) {
-    // since youtube is loaded dinamically,
-    // we need to wait until the element is there.
-    return setTimeout(function(){ disableAutoplay(); }, 500);
-  }
-
   if (autoplayToggle.getAttribute('aria-pressed') === "true") {
     autoplayToggle.click();
   }
