@@ -12,6 +12,7 @@ function disableAutoplay(){
 
   if (autoplayToggle.getAttribute('aria-pressed') === "true") {
     autoplayToggle.click();
+    autoplayToggle.nextElementSibling.click();
   }
 }
 
