@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "YouTube Autoplay Disabler",
   "description": "Extension to disable YouTube's autoplay 'feature'. This implementation is pragmatic, so no fancy code: we just get the job done.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "icons": { "128": "icon-small.png" },
   "content_scripts": [
     {
