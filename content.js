@@ -24,7 +24,7 @@ function disableAutoplayV2() {
     autoplayCheckbox = document.getElementById("autoplay-checkbox");
 
   if (!autoplaySection && !autoplayCheckbox) {
-    // since youtube is loaded dinamically,
+    // since Youtube is loaded dynamically,
     // we need to wait until the element is there.
     // this operation is really cheap,
     // so it shouldn't impact performance/battery.
