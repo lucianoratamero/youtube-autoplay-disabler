@@ -4,7 +4,7 @@ function disableAutoplay(){
       autoplayCheckbox = document.getElementById('autoplay-checkbox');
 
   if (!autoplaySection && !autoplayCheckbox) {
-    // since youtube is loaded dinamically,
+    // since Youtube is loaded dynamically,
     // we need to wait until the element is there.
     return setTimeout(function(){ disableAutoplay(); }, 500);
   }
