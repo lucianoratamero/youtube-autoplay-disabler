@@ -16,7 +16,7 @@ function disableAutoplayV3(retryCount) {
   }
 
   var autoplayButton = document.querySelector(
-    '[data-tooltip-target-id="ytp-autonav-toggle-button"]'
+    '[aria-label="Autoplay is on"]'
   );
 
   if (document.readyState !== "complete") {
